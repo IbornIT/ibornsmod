@@ -26,14 +26,14 @@ public class iborns
 	
     
     public Block TestBlock = new com.jimdo.ibornlp.blocks.TestBlock(Material.rock).setBlockName("testBlock").setBlockTextureName(MODID + ":TestBlock");
-    public Block armorblock1 = new com.jimdo.ibornlp.blocks.armorblock1(Material.rock).setBlockName("armorblock1").setBlockTextureName(MODID + ":armorblock1");
-    public Block armorblock2 = new com.jimdo.ibornlp.blocks.armorblock2(Material.rock).setBlockName("armorblock2").setBlockTextureName(MODID + ":armorblock2");
-    public Block armorblock3 = new com.jimdo.ibornlp.blocks.armorblock3(Material.rock).setBlockName("armorblock3").setBlockTextureName(MODID + ":armorblock3").setHardness(2.5F);
+    public Block armorblock1 = new com.jimdo.ibornlp.blocks.armorblock1(Material.rock).setBlockName("armorblock1").setBlockTextureName(MODID + ":ARMORBLOCK");
+    public Block armorblock2 = new com.jimdo.ibornlp.blocks.armorblock2(Material.rock).setBlockName("armorblock2").setBlockTextureName(MODID + ":ARMORBLOCK");
+    public Block armorblock3 = new com.jimdo.ibornlp.blocks.armorblock3(Material.rock).setBlockName("armorblock3").setBlockTextureName(MODID + ":ARMORBLOCK").setHardness(2.5F);
     public Item schnitzel = new com.jimdo.food.schnitzel(20, 1.0F, false).setTextureName(MODID + ":schnitzel").setUnlocalizedName("schnitzel");
     public Item rawschnitzel = new com.jimdo.food.rawschnitzel(1, 1.0F, false).setTextureName(MODID + ":rawschnitzel").setUnlocalizedName("rawschnitzel");
     public Item panade = new com.jimdo.food.panade(0, 1.0F, false).setTextureName(MODID + ":panade").setUnlocalizedName("panade");		
-    public Item schokolade = new com.jimdo.food.schokolade(1, 1.0F, true).setTextureName(MODID + "schokolade.png").setUnlocalizedName("schokolade");
-    public Item spekulatius = new com.jimdo.food.spekulatius(5, 1.0F, false).setTextureName(MODID + "spekulatius").setUnlocalizedName("spekulatius");
+    public Item schokolade = new com.jimdo.food.schokolade(1, 1.0F, true).setTextureName(MODID + ":schokolade.png").setUnlocalizedName("schokolade");
+    public Item spekulatius = new com.jimdo.food.spekulatius(5, 1.0F, false).setTextureName(MODID + ":spekulatius").setUnlocalizedName("spekulatius");
     public Item creeperstick = new ibornsitems.creeperstick().setCreativeTab(CreativeTabs.tabBlock).setUnlocalizedName("creeperstick");
 
     
